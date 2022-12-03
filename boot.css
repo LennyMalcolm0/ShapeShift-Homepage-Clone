@@ -1,0 +1,774 @@
+body {
+    background-color: #030D2E;
+    color: white;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.m-width {
+    max-width: 2000px;
+    margin-top: 100px;
+}
+
+.fixed-head {
+    margin-top: 0px;
+}
+
+.header-bg {
+    background-color: #0D182D;
+    width: 100%;
+}
+
+.fixed-head img {
+    height: 40px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.fa-angle-down {
+    margin-left: 5px;
+}
+
+#nn {
+    color: #CED0D5;
+}
+
+.arrange-nav {
+    margin-left: 10px;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.launchApp {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+}
+
+.toggle-on {
+    background-color: #467aff;
+    border: solid 2px #467aff;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.toggle-on:hover {
+    background-color: #2b66fb;
+    box-shadow: 0 0;
+    cursor: pointer;
+    transition: all ease;
+}
+
+
+
+.section1 {
+    position: relative; top: 150px;
+    width: 100%;
+    height: 620px;
+    /*background-color: #467aff;*/
+}
+
+.block1 {
+    width: 540px;
+    margin-left: 100px;
+}
+
+h1 {
+    font-size: 78px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #9FA0AB;
+}
+
+.gsvd {
+    display: flex;
+    margin-top: 30px;
+}
+
+.getStarted {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewDemo {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.viewDemo:hover {
+    box-shadow: 0 0;
+    background-color: #000921;
+    cursor: pointer;
+}
+
+
+
+.section2 {
+    height: 450px;
+    width: 100%;
+}
+
+.center2 {
+    width: 400px;
+    margin-left: 70px;
+}
+
+.small-header {
+    font-size: 10px;
+    color: #9358FE;
+    font-weight: 700;
+}
+
+.startFarm {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin2 {
+    margin: 25px 0;
+}
+
+.image2 img {
+    margin-left: 120px;
+}
+
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+}
+
+.m1 {
+    margin-left: 30px;
+}
+
+.m2 {
+    margin-left: 28px;
+    margin-top: 15px;
+}
+
+.cryptoBH {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crypto-box {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #1D212C;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative; top: 30px;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.abb {
+    position: relative; top: 15px;
+}
+
+.yr {
+    position: relative; top: 10px;
+
+}
+
+.rate {
+    font-size: 33px;
+    color: #00ff8c;
+    font-weight: 100;
+}
+
+.margin3 {
+    margin: 0 10px;
+}
+
+.eth {
+    border: 1px solid #627FEB;
+}
+  
+.usdc {
+    border: 1px solid #2775CA;
+}
+
+.dai {
+    border: 1px solid #F5AD36;
+}
+
+.cosmos {
+    border: 1px solid #c6c7d3;
+}
+
+.fox {
+    border: 1px solid #386FF9;
+}
+
+
+
+.section4 {
+    height: 850px;
+}
+
+.art-b {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.center6 {
+    margin-left: 100px;
+}
+
+.sw-p {
+    width: 420px;
+}
+
+.bg-grad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(92, 92, 242), rgb(33, 173, 33), rgb(234, 234, 69), rgb(175, 42, 175));
+}
+
+.sup-wallets {
+    width: 414px;
+    height: 494px;
+    background-color: #1D212C;
+    border-radius: 20px;
+}
+
+.sw-digits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.sw-text {
+    text-align: center;
+}
+
+.t1 {
+    font-size: 24px;
+    color: white;
+}
+
+.sw-line {
+    height: 0.3px;
+    width: 415px;
+    background-color: rgb(63, 63, 63);
+}
+
+.sw-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.margin4 {
+    margin: 15px 0;
+}
+
+.margin5 {
+    margin: 60px 0;
+}
+
+.ss-logo {
+    margin-top: 35px;
+}
+
+
+
+.section5 {
+    height: 650px;
+}
+
+.center7 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.csd {
+    margin-top: 15px;
+}
+
+.chains {
+    width: 1200px;
+}
+
+.box2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-box {
+    display: flex;
+    width: 220px;
+    height: 170px;
+    background-color: #1D212C;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cb-margin {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.margin6 {
+    margin: 10px 10px;
+}
+
+.bitcoin {
+    border: 1px solid #F89C31;
+}
+
+.litecoin {
+    border: 1px solid purple;
+}
+
+.dogecoin {
+    border: 1px solid #C3A735;
+}
+
+.avalanche {
+    border: 1px solid #E84040;
+}
+
+.thor-chain {
+    border: 1px solid #1CE9C7;
+}
+
+.btc-cash {
+    border: 1px solid #0AC08F;
+}
+
+
+
+.section6 {
+    height: 800px;
+}
+
+.ss-mobile {
+    margin-left: 250px;
+}
+
+.mobile-info {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-margin {
+    margin-right: 80px;
+}
+
+.defi {
+    width: 400px;
+    margin-top: 15px;
+}
+
+.qr-code {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
+.center-download {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.invisible-dv {
+    display: none;
+}
+
+
+
+.section7 {
+    height: 480px;
+}
+
+.center-part1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.part1 {
+    width: 72%;
+}
+
+.ph {
+    margin-top: 15px;
+}
+
+.pt {
+    margin-top: 25px;
+}
+
+.get-involved {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    width: 550px;
+    height: 100px;
+    background-color: #152F56;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #0e2445;
+    cursor: pointer;
+}
+
+.c-text {
+    width: 75%;
+}
+
+.c-head {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.c-body {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9FA0AB;
+}
+
+
+
+.section8 {
+    height: 750px;
+}
+
+.developers {
+    display: flex;
+    background-color: #42307F;
+    width: 1100px;
+    height: 580px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.center9 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.coder-image {
+    margin-left: 30px;
+}
+
+.csc {
+    width: 420px;
+    margin-left: 50px;
+}
+
+.coders-link {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.github {
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bounties {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-text {
+    color: #405AF8;
+    cursor: pointer;
+}
+
+.alt {
+    line-height: 1;
+    margin-top: 40px;
+}
+
+
+
+.section9 {
+    height: 615px;
+}
+
+.news {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.center10 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.news-info {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    display: flex;
+    width: 380px;
+    height: 230px;
+    background-color: #152B54;
+    border-radius: 10px;
+    border: 1px solid #4a618a;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.inner-card {
+    width: 320px;
+    height: 170px;
+}
+
+.date {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.side-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: #386ff9;
+    margin-top: 2px;
+}
+
+.news-detail {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.read-more {
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; bottom: 20px;
+}
+
+.center11 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-things {
+    width: 70%;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.footer {
+    height: 730px;
+    background-image:linear-gradient(to bottom, #030920, #030D2E);
+}
+
+.center12 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tp img {
+    margin-bottom: 9px;
+}
+
+.Tp {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.f-info {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.ss-logo {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+}
+
+.socials-icon {
+    display: flex;
+    height: 70px;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.si {
+    cursor: pointer;
+}
+
+.h-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #386ff9;
+    margin-bottom: 40px;
+} 
+
+.f-line {
+    width: 30px;
+    height: 3px;
+    background-color: #386ff9;
+    margin-top: 20px;
+}
+
+.f-p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6d7584;
+    margin-bottom: 30px;
+}
+
+.f-p:hover {
+    color: #7486a6;
+    margin-left: 10px;
+    transition: ease-in-out 0.1s; 
+}
+
+.f-head1 {
+    width: 120px;
+}
+
+.f-head2 {
+    width: 150px;
+}
+
+.f-head3 {
+    width: 150px;
+}
+
+.f-head4 {
+    width: 80px;
+}
+
+.f-text {
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #030920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #6d7584;
+}
+
+
+
