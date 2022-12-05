@@ -1,6 +1,6 @@
 # ShapeShift Homepage Clone
 
-This repository contains a clone of the ShapeShift homepage, built using HTML, CSS and Bootstrap. The goal of this project is to replicate the design and layout of the ShapeShift homepage as closely as possible.
+This repository contains a clone of the ShapeShift cryptocurrency exchange website's homepage, optimized for mobile and desktop view, built using HTML, CSS and little Bootstrap. The goal of this project is to replicate the design and layout of the ShapeShift homepage as closely as possible.
 
 ## Installation
 
