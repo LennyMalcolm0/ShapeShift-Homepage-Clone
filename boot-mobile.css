@@ -1,0 +1,311 @@
+@media screen and (max-width: 768px) {
+    .fixed-head img {
+        margin-left: 0;
+    }
+
+    .arrange-nav {
+        margin-left: 0px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .launchApp {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 110px;
+    }
+
+    .margin1 {
+        margin: 10px 0;
+    }
+
+
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .block1 {
+        margin-left: 0;
+        width: 82%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .center-gsvd {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .gsvd {
+        margin-top: 50px;
+    }
+
+    .image1 img {
+        width: 480px;
+    }
+
+    .image1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+
+
+    .section2 {
+        margin-top: 350px;
+    }
+
+    .image2 img {
+        width: 380px;
+        margin: 0 0;
+    }
+ 
+    .image2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: relative; top: 270px;
+    }
+
+    .center2 {
+        margin-left: 0;
+        text-align: center;
+        margin: 0 auto;
+        position: relative; bottom: 250px;
+        width: 85%;
+    }
+
+    .margin2 {
+        margin: 20px 0;
+    }
+
+    .center-sf {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
+    .section3 {
+        position: relative; top: 170px;
+    }
+
+    .section3-holder {
+        width: 440px;
+        text-align: center;
+    }
+
+    .m1 {
+        margin-left: 0;
+    }
+
+    .m2 {
+        margin-left: 0;
+    }
+
+    .crypto-box {
+        margin: 10px 10px;
+    }
+
+    .fox {
+        position: relative; left: 110px;
+    }
+
+
+
+    .section4 {
+        position: relative; top: 650px;
+    }
+
+    .art-b {
+        display: flex;
+        margin: 0 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .art-b img {
+        width: 350px;
+    }
+
+    .center6 {
+        margin-left: 0;
+        margin-top: 100px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .sup-wal {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .center-grad {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bg-grad {
+        margin-top: 60px;
+    }
+
+    .center7 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .chains {
+        width: 460px;
+        text-align: center;
+    }
+
+
+
+    .section5 {
+        position: relative; top: 1100px;
+    }
+
+    .margin6 {
+        margin: 10px 5px;
+    }
+
+
+
+    .section6 {
+        position: relative; top: 1200px;
+        height: 400px;
+    }
+
+    .ss-mobile {
+        display: none;
+    }
+
+    .qr-code {
+        display: none;
+    }
+
+    .info-margin {
+        text-align: center;
+        margin-right: 0;
+        width: 85%;
+    }
+
+    .invisible-dv {
+        display: block;
+    }
+
+    .br-vanish {
+        display: none;
+    }
+
+
+    
+    .section7 {
+        position: relative; top: 1300px;
+    }
+
+    .part1 {
+        text-align: center;
+        width: 85%;
+    }
+
+    .c-GI {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .item {
+        width: 450px;
+        height: 120px;
+    }
+
+    .part2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+
+
+    .section8 {
+        position: relative; top: 1550px;
+    }
+
+    .coder-image {
+        display: none;
+    }
+
+    .developers {
+        background-color: transparent;
+        width: 90%;
+    }
+
+    .csc {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .center-cl {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
+    .section9 {
+        margin-top: 1450px;
+    }
+
+    .news {
+        font-size: 24px;
+    }
+
+    .news-info {
+        width: 380px;
+    }
+
+    .margin7 {
+        margin-top: 30px;
+    }
+
+
+    .footer {
+        margin-top: 505px;
+    }
+
+    .f-info {
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .m-view {
+        text-align: center;
+        display: flex;
+        width: 250px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .center-line {
+        display: flex;
+        width: 250px;
+        justify-content: center;
+    }
+}
