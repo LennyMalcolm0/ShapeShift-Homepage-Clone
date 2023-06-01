@@ -1,12 +1,22 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 824px) {
+    .m-width {
+        margin: 0;
+    }
+
     .fixed-head img {
         margin-left: 0;
     }
 
+    .navbar {
+        width: 100vw;
+        position: fixed;
+        top: 0;
+    }
+
     .arrange-nav {
+        height: 100dvh;
         margin-left: 0px;
         display: flex;
-        width: 100%;
         justify-content: center;
     }
 
@@ -43,15 +53,17 @@
         margin-top: 50px;
     }
 
-    .image1 img {
-        width: 480px;
+    .image1 {
+        width: 100vw;
+        margin-top: 100px;
+        position: relative;
     }
 
-    .image1 {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        margin-top: 100px;
+    .image1 img {
+        width: 95%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 
@@ -61,7 +73,7 @@
     }
 
     .image2 img {
-        width: 380px;
+        width: 80%;
         margin: 0 0;
     }
  
@@ -97,7 +109,7 @@
     }
 
     .section3-holder {
-        width: 440px;
+        width: 70%;
         text-align: center;
     }
 
@@ -109,18 +121,21 @@
         margin-left: 0;
     }
 
-    .crypto-box {
-        margin: 10px 10px;
+    .cryptoBH {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .fox {
-        position: relative; left: 110px;
+    .crypto-box {
+        margin: 10px;
+        width: 250px;
     }
 
 
 
     .section4 {
         position: relative; top: 650px;
+        margin-top: 400px;
     }
 
     .art-b {
@@ -131,7 +146,7 @@
     }
 
     .art-b img {
-        width: 350px;
+        width: 75%;
     }
 
     .center6 {
@@ -155,6 +170,17 @@
 
     .bg-grad {
         margin-top: 60px;
+        transform: scale(0.9);
+    }
+
+    .sup-wallets {
+        width: calc(100% - 6px);
+    }
+
+
+
+    .section5 {
+        position: relative; top: 1100px;
     }
 
     .center7 {
@@ -164,14 +190,17 @@
     }
 
     .chains {
-        width: 460px;
+        width: 100%;
         text-align: center;
     }
 
+    .box2 {
+        flex-direction: column;
+        align-items: center;
+    }
 
-
-    .section5 {
-        position: relative; top: 1100px;
+    .c-box {
+        width: 75%;
     }
 
     .margin6 {
@@ -182,6 +211,7 @@
 
     .section6 {
         position: relative; top: 1200px;
+        margin-top: 750px;
         height: 400px;
     }
 
@@ -201,6 +231,11 @@
 
     .invisible-dv {
         display: block;
+    }
+
+    .download {
+        width: 100%;
+        padding: 0 10px;
     }
 
     .br-vanish {
@@ -225,8 +260,9 @@
     }
 
     .item {
-        width: 450px;
         height: 120px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .part2 {
@@ -244,6 +280,7 @@
 
     .section8 {
         position: relative; top: 1550px;
+        margin-top: 100px;
     }
 
     .coder-image {
@@ -270,7 +307,7 @@
 
 
     .section9 {
-        margin-top: 1450px;
+        margin-top: 1400px;
     }
 
     .news {
