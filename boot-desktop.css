@@ -603,6 +603,7 @@ h4 {
     display: flex;
     width: 380px;
     height: 230px;
+    padding: 0 30px;
     background-color: #152B54;
     border-radius: 10px;
     border: 1px solid #4a618a;
@@ -613,8 +614,7 @@ h4 {
 }
 
 .inner-card {
-    width: 320px;
-    height: 170px;
+    height: 180px;
 }
 
 .date {
