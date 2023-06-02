@@ -1,6 +1,10 @@
 @media screen and (max-width: 824px) {
     .m-width {
-        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .container-fluid {
+        width: 100%;
     }
 
     .fixed-head img {
@@ -9,13 +13,11 @@
 
     .navbar {
         width: 100vw;
-        position: fixed;
-        top: 0;
     }
 
     .arrange-nav {
         height: 100dvh;
-        margin-left: 0px;
+        margin: 0px;
         display: flex;
         justify-content: center;
     }
@@ -37,8 +39,7 @@
     }
 
     .block1 {
-        margin-left: 0;
-        width: 82%;
+        width: 90%;
         text-align: center;
         margin: 0 auto;
     }
@@ -85,11 +86,10 @@
     }
 
     .center2 {
-        margin-left: 0;
         text-align: center;
         margin: 0 auto;
         position: relative; bottom: 250px;
-        width: 85%;
+        width: 90%;
     }
 
     .margin2 {
@@ -97,19 +97,19 @@
     }
 
     .center-sf {
-        display: flex;
         width: 100%;
+        display: flex;
         justify-content: center;
     }
 
 
 
     .section3 {
-        position: relative; top: 170px;
+        position: relative; top: 100px;
     }
 
     .section3-holder {
-        width: 70%;
+        width: 90%;
         text-align: center;
     }
 
@@ -135,7 +135,7 @@
 
     .section4 {
         position: relative; top: 650px;
-        margin-top: 400px;
+        margin-top: 350px;
     }
 
     .art-b {
@@ -169,7 +169,8 @@
     }
 
     .bg-grad {
-        margin-top: 60px;
+        width: 100vw;
+        margin-top: 30px;
         transform: scale(0.9);
     }
 
@@ -180,7 +181,7 @@
 
 
     .section5 {
-        position: relative; top: 1100px;
+        position: relative; top: 1050px;
     }
 
     .center7 {
@@ -211,7 +212,7 @@
 
     .section6 {
         position: relative; top: 1200px;
-        margin-top: 750px;
+        margin-top: 700px;
         height: 400px;
     }
 
@@ -226,7 +227,7 @@
     .info-margin {
         text-align: center;
         margin-right: 0;
-        width: 85%;
+        width: 90%;
     }
 
     .invisible-dv {
@@ -236,6 +237,10 @@
     .download {
         width: 100%;
         padding: 0 10px;
+    }
+
+    .download img {
+        width: calc(50% - 5px);
     }
 
     .br-vanish {
@@ -250,7 +255,7 @@
 
     .part1 {
         text-align: center;
-        width: 85%;
+        width: 90%;
     }
 
     .c-GI {
@@ -315,12 +320,21 @@
     }
 
     .news-info {
-        width: 380px;
+        width: 90vw;
+    }
+
+    .news-card {
+        width: 100%;
     }
 
     .margin7 {
         margin-top: 30px;
     }
+
+    .all-things {
+        width: 80%;
+    }
+
 
 
     .footer {
